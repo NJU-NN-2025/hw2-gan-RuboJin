@@ -12,7 +12,7 @@ MODEL_CONFIG["model_name"] = "stylegan"  # 确保使用对应模型架构
 #CKPT = os.path.join(OUTPUT_DIR, "dcgan_full","epoch_090_interval.pth")  # 默认检查点路径
 #CKPT = os.path.join(OUTPUT_DIR, "lsgan_full","epoch_175_interval.pth")  # 默认检查点路径
 #CKPT = os.path.join(OUTPUT_DIR, "wgangp_full","epoch_175_interval.pth")  # 默认检查点路径
-CKPT = os.path.join(OUTPUT_DIR, "stylegan_full","epoch_120_interval.pth")  # 默认检查点路径
+CKPT = os.path.join(OUTPUT_DIR, "stylegan_full","epoch_045_interval.pth")  # 默认检查点路径
 
 def load_checkpoint(G, D, ckpt_path, device):
     print(f"[INFO] Loading checkpoint: {ckpt_path}")
